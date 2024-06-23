@@ -1,0 +1,41 @@
+body{
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    background-image: url('OCEAN5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.clock{
+    width: 700px;
+    height: 250px;
+    font-size: 7rem;
+    font-weight: bold;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgb(73, 73, 238) ;
+    border-radius: 150px;
+    background-image: url('wall.jpg');
+    overflow: hidden;
+}
+
+p{
+    color: #c70039;
+    padding: 30px;
+}
+#hours{
+    color: #41be1b;
+
+}
+#minutes{
+    color: #c70039;
+}
+#seconds{
+    color: #8a16c0;
+}
